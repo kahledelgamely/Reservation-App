@@ -1,0 +1,26 @@
+.navbar {
+    display: flex;
+    justify-content: center;
+    background-color: teal;
+    height: 60px;
+}
+.container {
+    width: 1000px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    color: white;
+}
+ .logo{
+    font-weight: bold;
+ }
+ .register button {
+    margin-left:  20px;
+    border: none;
+    cursor: pointer;
+    padding: 5px 10px;
+ }
+ .register a {
+    text-decoration: none;
+    color: black;
+ }

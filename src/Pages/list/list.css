@@ -1,0 +1,70 @@
+
+.list-container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+margin-top: 20px;
+}
+.list-wrapper {
+    width: 1000px;
+display: flex;
+gap: 10px;
+}
+.left-search{
+flex: 1;
+padding: 10px;
+background-color: goldenrod;
+border-radius: 10px;
+height: max-content;
+}
+.ls-title {
+    margin-bottom: 10px;
+}
+
+.form {
+    display: flex;
+    flex-direction: column;
+    gap: 5px;
+    margin-bottom: 10px;
+}
+.form label {
+font-size: 15px;
+}
+.form input {
+height: 30px;
+border: none;
+padding: 5px;
+}
+.form >span {
+    height: 30px;
+    background-color: white;
+    padding: 5px;
+    display: flex;
+    align-items: center;
+    cursor: pointer;
+}
+.list-option{
+    padding: 10px;
+}
+.list-option-item{
+display: flex;
+justify-content: space-between;
+margin-bottom: 5px;
+font-size: 13px;
+}
+.list-option-input{
+    width: 50px;
+}
+.search-btn {
+    padding: 10px;
+  background-color: #0071c2;
+  color: white;
+  border: none;
+  width: 100%;
+  font-weight: 500;
+  cursor: pointer;
+
+}
+.list-result{
+    flex: 3;
+}
